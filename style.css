@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.col-3 img{
+    max-width: 100%;
+}
+
+
+/*header css*/
+header{
+    padding: 15px;
+}
+.row{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.logo{
+    flex-basis: 20%;
+    width: 20%;
+    text-align: center;
+}
+nav{
+    flex-basis: 60%;
+    width: 60%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 20px 10px;
+    color: #292640;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.btn a {
+    text-decoration: none;
+    border: 1px solid #FF6162;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FF6162;
+    color: #fff;
+    transition: all .5s;
+}
+.btn a:hover {
+    background-color: #292640;
+    color: #fff;
+    border: 1px solid #292640;
+}
+/*header css*/
+
+/*banner section*/
+.banner-section{
+    padding: 70px;
+}
+.banner-section .row{
+    justify-content: center;
+}
+.col-2{
+    max-width: 50%;
+    flex: 1 0 50%;
+    
+}
+.banner-content{
+    padding: 100px;
+    overflow: hidden;
+}
+.banner-content h2{
+    color: #292640;
+    font-size: 32px;
+    line-height: 1.3;
+}
+.banner-content p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #838082;
+    padding: 10px 0;
+}
+.font-icon a i{
+    color: #838082;
+    transition: all 1s ease;
+}
+.font-icon a i:hover{
+    transform: translateY(50%);
+}
+
+/*banner section*/
+
+/* demo section*/
+.demo-section{
+    padding: 100px;
+}
+.demo-content{
+    text-align: center;
+}
+.demo-content h3{
+    color: #292640;
+}
+.demo-content p{
+    font-family: 'Style Script', cursive;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    max-width: 520px;
+    margin: auto;
+    padding: 10px 0;
+    color: #838082;
+}
+
+.col-4{
+    padding: 10px;
+    box-sizing: border-box;
+   
+}
+
+/* demo section*/
+
+/*feature section*/
+.line-1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.col-3{
+    padding: 10px 0;
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+}
+.post{
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+.post h4{
+    color: #292640;
+}
+.post p{
+    color: #838082;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.line-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+/*feature section*/
+
+/*footer section*/
+footer{
+    background-color: #292640;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer-content{
+    max-width: 500px;
+    margin: auto;
+
+}
+.footer-content h1{
+    padding: 50px;
+    color: #fff;
+}
+footer .btn{
+    padding-bottom: 50px;
+}
+footer .btn a:hover{
+    border: 1px solid #fff;
+}
+
+/*footer section*/
+
